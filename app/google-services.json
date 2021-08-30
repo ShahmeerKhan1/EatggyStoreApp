@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "465566766683",
+    "project_id": "store-app-aa90e",
+    "storage_bucket": "store-app-aa90e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465566766683:android:805323657fa256b4da117e",
+        "android_client_info": {
+          "package_name": "com.yummiodmkschinky.storeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465566766683-r6ae07mtcnp23nbjrtqbup4o4odj6pa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3DYMaRB8a2z7ZUNJRfjitf4nHI_GazE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465566766683-r6ae07mtcnp23nbjrtqbup4o4odj6pa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

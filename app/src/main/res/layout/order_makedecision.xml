@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:minHeight="200dp"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Make A Decision"
+        android:textColor="@color/colorBalck"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:background="@drawable/border"
+        android:hint="Comment"
+        android:padding="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txt_accept"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_green"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:text="Accept"
+            android:textColor="@color/colorWhite" />
+
+
+        <TextView
+            android:id="@+id/txt_reject"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_red"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:text="Reject"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+</LinearLayout>
